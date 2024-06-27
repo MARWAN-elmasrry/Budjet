@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.budget{
+    display: flex;
+    justify-content: space-between;
+}
+.budget .bud{
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 5px;
+}
+.budget .bud input{
+    width: 150px;
+}
+.budget .ram{
+    background-color: rgb(123, 189, 110);
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+}
+.budget .ram p{
+    padding-left: 15px;
+}
+.budget .spen{
+    background-color: rgba(0, 174, 255, 0.507);
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+}
+.budget .spen p{
+    padding-left: 15px;
+}
+.budget .curr{
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+}
+.budget .curr p{
+    padding-left: 15px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse:collapse;
+    width: 100%;
+}
+th{
+    font-size: 20px;
+}
+td, th {
+    border-bottom: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.change-all{
+    display: inline-flex;
+    position: absolute;
+}
+.chan-all{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(180, 180, 180);
+}
+.chan-all select{
+    font-size: 16px;
+}
+.chan-all p{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.chan-all .add{
+    width: 70px;
+}
+.chan-inp{
+    display: flex;
+    margin-left: 20px;
+}
+.chan-inp input{
+    height: 34px;
+}
+.chan-inp p{
+    margin: 0;
+    font-size: 25px;
+}
+.chan-btn{
+    margin-left: 30px;
+}
+.chan-btn button{
+    height: 40px;
+    width: 55px;
+    padding: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 0 9px 9px 0;
+}
+table td .btn-inc{
+    font-size: 33px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: rgb(0, 206, 0);
+}
+table td .btn-dec{
+    font-size: 30px;
+    height: 36px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: rgb(206, 0, 0);
+}
+table td .btn-del{
+    font-size: 30px;
+    height: 36px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);   
+}
